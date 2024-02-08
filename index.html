@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div>
+            <h1>Dojonary</h1>
+        </div>
+        <div>
+            <input type="text" name="search" id="search" value="Search">
+        </div>
+        <div>
+            <button id="Log" onclick="Log()">Login</button>
+        </div>
+    </nav>
+
+    <div class="pag">
+        <div class="gran">
+            <div class="conte">
+                <div class="nom">
+                    <h1>ninja</h1>
+                    <em>noun</em>
+                    <p>Plural: <em>ninjas</em></p>
+                    <button type="button" id="like1" onclick="likes()">13 likes</button>
+                </div>
+                <div class="descr">
+                    <p>A practitione skilled in the <a href="#">Japonese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="conte">
+                <div class="nom">
+                    <h1>ninja</h1>
+                    <em>noun</em>
+                    <p>Plural: <em>ninjas</em></p>
+                    <button type="button" id="like2" onclick="likes()">37 likes</button>
+                </div>
+                <div class="descr">
+                    <p>A <a href="#">programmer</a> who breaks down problems whith <a href="#">zen</a>-like focus</p>
+                </div>
+            </div>
+        </div>  
+        <div class="peque">
+            <div class="conte2">
+                <h1>Dojonary is defined by YOU</h1>
+                <button type="button" id="defined" onclick="define()">Add Definition</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
